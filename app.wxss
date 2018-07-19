@@ -1,0 +1,16 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+  background-color: #D1EEEE;
+} 
+
+/* 设置页面路径 数组的第一项代表小程序的初始页面。小程序中新增/减少页面，都需要对 pages 数组进行修改。
+用于设置小程序的状态栏、导航条、标题、窗口背景色。
+当设置 position 为 top 时，将不会显示 icon
+tabBar 中的 list 是一个数组，只能配置最少2个、最多5个 tab，tab 按数组的顺序排序。 */
