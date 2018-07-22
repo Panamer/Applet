@@ -16,7 +16,7 @@
     "borderStyle": "white",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/movie/movies",
         "text": "首页",
         "iconPath": "images/home-off.png",
         "selectedIconPath": "images/home-on.png"
@@ -28,13 +28,13 @@
         "selectedIconPath": "images/order-on.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/movie/movies",
         "text": "购物车",
         "iconPath": "images/cart-off.png",
         "selectedIconPath": "images/cart-on.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/movie/movies",
         "text": "我的",
         "iconPath": "images/my-off.png",
         "selectedIconPath": "images/my-on.png"
