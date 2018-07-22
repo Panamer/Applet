@@ -11,7 +11,8 @@ Page({
   },
   //事件处理函数
   bindViewTap: function() {
-    wx.navigateTo({
+    // 跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面，只有这个能跳到tabBar
+    wx.switchTab({
       url: '../movie/movies'
     })
   },

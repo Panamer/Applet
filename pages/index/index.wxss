@@ -28,6 +28,13 @@
 }
 
 .usermotto {
+  font-size: 16px;
   margin-top: 200px;
   color: #CD3333;
+  padding: 3px 5px;
+  border: 1px solid #CD3333;
+}
+
+page {
+  background-color: #D1EEEE
 }

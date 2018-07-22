@@ -1,4 +1,4 @@
 /**app.wxss**/
 page {
-  background-color: #D1EEEE
+  /* page 的颜色放在index设置，为了从index跳出去以后index自动失去颜色 */
 }
