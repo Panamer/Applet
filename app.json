@@ -17,25 +17,25 @@
     "list": [
       {
         "pagePath": "pages/movie/movies",
-        "text": "首页",
+        "text": "电影",
         "iconPath": "images/home-off.png",
         "selectedIconPath": "images/home-on.png"
       },
       {
         "pagePath": "pages/logs/logs",
-        "text": "特价",
+        "text": "图书",
         "iconPath": "images/order-off.png",
         "selectedIconPath": "images/order-on.png"
       },
       {
         "pagePath": "pages/movie/movies",
-        "text": "购物车",
+        "text": "授权",
         "iconPath": "images/cart-off.png",
         "selectedIconPath": "images/cart-on.png"
       },
       {
-        "pagePath": "pages/movie/movies",
-        "text": "我的",
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
         "iconPath": "images/my-off.png",
         "selectedIconPath": "images/my-on.png"
       }
