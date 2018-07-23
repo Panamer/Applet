@@ -1,8 +1,10 @@
 {
   "pages": [
+    "pages/books/post",
+    "pages/books/post-detail/post-detail",        
     "pages/index/index",
-    "pages/logs/logs",
     "pages/movies/movies",
+    "pages/logs/logs",
     "pages/movies/movie-detail/movie-detail",
     "pages/movies/more-movie/more-movie"
   ],
@@ -24,7 +26,7 @@
         "selectedIconPath": "images/home-on.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/books/post",
         "text": "图书",
         "iconPath": "images/order-off.png",
         "selectedIconPath": "images/order-on.png"
