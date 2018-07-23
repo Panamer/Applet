@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/movie/movies"
+    "pages/movies/movies",
+    "pages/movies/movie-detail/movie-detail",
+    "pages/movies/more-movie/more-movie"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,7 +18,7 @@
     "borderStyle": "white",
     "list": [
       {
-        "pagePath": "pages/movie/movies",
+        "pagePath": "pages/movies/movies",
         "text": "电影",
         "iconPath": "images/home-off.png",
         "selectedIconPath": "images/home-on.png"
@@ -28,7 +30,7 @@
         "selectedIconPath": "images/order-on.png"
       },
       {
-        "pagePath": "pages/movie/movies",
+        "pagePath": "pages/movies/movies",
         "text": "授权",
         "iconPath": "images/cart-off.png",
         "selectedIconPath": "images/cart-on.png"

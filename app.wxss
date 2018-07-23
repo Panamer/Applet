@@ -2,3 +2,13 @@
 page {
   /* page 的颜色放在index设置，为了从index跳出去以后index自动失去颜色 */
 }
+
+text{
+    font-family: MicroSoft Yahei;
+    font-size: 24rpx;
+    color: #666;
+}
+
+input{
+    font-family: MicroSoft YaHei;
+}
