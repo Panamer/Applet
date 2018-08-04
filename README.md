@@ -57,3 +57,14 @@ reLaunch 可以打开任意页面。
 4、简述小程序的生命周期？
 
 <web-view>总是自动铺满整个页面，且每个页面只能有一个<web-view>，它会覆盖其他组件。也就是说，没有办法实现小程序界面组件和<web-view>页面混排的情况
+
+如果要在已经通过<web-view>嵌入小程序的网页中，跳转到小程序中的其他页面(Page)，可以引入微信的一个JSSDK，使用它提供的方法来实现相关跳转功能。网页代码类似如下所示：
+
+<!-- html代码中引入JS SDK -->
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.3.0.js"></script>
+
+<script>
+// 跳转到小程序的一个页面
+wx.miniProgram.navigateTo({url: '/path/to/page'})
+</script>
+
