@@ -67,4 +67,3 @@ reLaunch 可以打开任意页面。
 // 跳转到小程序的一个页面
 wx.miniProgram.navigateTo({url: '/path/to/page'})
 </script>
-
