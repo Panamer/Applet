@@ -9,7 +9,7 @@
 
 当设置 position 为 top 时，将不会显示 icon
 
-tabBar 中的 list 是一个数组，只能配置最少2个、最多5个 tab，tab 按数组的顺序排序。 
+tabBar 中的 list 是一个数组，只能配置最少2个、最多5个 tab，tab 按数组的顺序排序。      
 
 */
 
